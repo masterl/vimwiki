@@ -1,0 +1,12 @@
+= Video edition =
+
+Useful programs:
+ - audacity
+ - kdenlive
+ - ffmpeg
+
+Commands:
+ * Replace audio in video
+   - ffmpeg -i audio.mp3 -i video.mp4/mkv/... -vcodec copy output.mkv
+ * Extract audio from video
+   - avconv -i video.mp4 audio.mp3
